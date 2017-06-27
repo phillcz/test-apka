@@ -18,7 +18,9 @@ pipeline {
             
           },
           "test3": {
-            sh 'false'
+            sh '''echo ahoj
+false'''
+            echo 'xxxx'
             
           }
         )
