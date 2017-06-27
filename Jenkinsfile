@@ -16,8 +16,17 @@ pipeline {
           "test2": {
             sleep 8
             
+          },
+          "test3": {
+            sh 'false'
+            
           }
         )
+      }
+    }
+    stage('konec') {
+      steps {
+        echo 'konec'
       }
     }
   }
