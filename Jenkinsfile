@@ -29,6 +29,7 @@ false'''
     stage('konec') {
       steps {
         echo 'konec'
+        junit 'xaxa'
       }
     }
   }
